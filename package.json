@@ -1,13 +1,13 @@
 {
   "name": "fullsoak-bun-example",
-  "version": "1.2.1",
-  "author": "",
+  "version": "1.3.0",
+  "author": "fullsoak",
   "main": "src/main.ts",
   "repository": {
     "url": "https://github.com/fullsoak/bun-examples.git"
   },
   "dependencies": {
-    "@fullsoak/fullsoak": "npm:@jsr/fullsoak__fullsoak@^0.8.0-alpha.1",
+    "@fullsoak/fullsoak": "npm:@jsr/fullsoak__fullsoak@^0.8.0-alpha.13",
     "preact": "npm:preact@^10.25.4",
     "react": "npm:@preact/compat",
     "react-dom": "npm:@preact/compat"
@@ -17,7 +17,8 @@
   "scripts": {
     "start": "bun src/main.ts",
     "dev": "bun --watch src/main.ts",
-    "test": "bun test"
+    "test": "bun test",
+    "test:update": "bun test --update-snapshots"
   },
   "type": "module"
 }
