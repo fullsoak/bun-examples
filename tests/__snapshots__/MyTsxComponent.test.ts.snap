@@ -8,7 +8,6 @@ exports[`MyTsxComponent 1`] = `
     "preact/hooks": "https://esm.sh/preact@10.25.4/hooks",
     "react": "https://esm.sh/preact@10.25.4",
     "react/jsx-runtime": "https://esm.sh/preact@10.25.4/jsx-runtime",
-    "preact/jsx-runtime": "https://esm.sh/preact@10.25.4/jsx-runtime",
     "react-dom": "https://esm.sh/preact@10.25.4/compat/",
     "react-dom/*": "https://esm.sh/preact@10.25.4/compat/*",
     "htm/preact": "https://esm.sh/htm@3.1.1/preact?external=preact",
@@ -19,5 +18,5 @@ exports[`MyTsxComponent 1`] = `
     "@fullsoak/fullsoak": "/fullsoak"
   }
 }
-</script><script type="text/javascript"></script><style></style></head><body><main id="fullsoak-htmlshell-main"><section class="main"><h1>MyComponent</h1><ul><li>props 'foo' is bar</li><li>state count is 0 <button>+</button><button>-</button></li><li><a href="/app">Route Aware App Component</a></li></ul></section><section style="padding:1rem;"><h2>MyOtherComponent</h2><span>props 'baz' is 0</span></section><footer><span>source code of this website:</span> <a href="https://github.com/fullsoak/bun-examples.git">https://github.com/fullsoak/bun-examples.git</a></footer></main><script type="text/javascript">window.preloadedProps = {"foo":"bar"}</script><script type="module" src="/js/MyComponent/mount.js"></script></body></html>"
+</script><script type="text/javascript"></script><style></style></head><body><main id="main"><section class="main"><h1>MyComponent</h1><ul><li>props 'foo' is bar</li><li>state count is 0 <button>+</button><button>-</button></li><li><a href="/app">Route Aware App Component</a></li></ul></section><section style="padding:1rem;"><h2>MyOtherComponent</h2><span>props 'baz' is 0</span></section><footer><span>source code of this website:</span> <a href="https://github.com/fullsoak/bun-examples.git">https://github.com/fullsoak/bun-examples.git</a></footer></main><script type="text/javascript">window.preloadedProps = {"foo":"bar"}</script><script type="module" src="/js/MyComponent/mount.js"></script></body></html>"
 `;
