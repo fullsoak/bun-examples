@@ -34,6 +34,7 @@
     "paths": {
       "preact": ["./node_modules/preact"],
       "npm:preact@10.25.4/jsx-runtime": ["./node_modules/preact/jsx-runtime"],
+      "npm:preact@10.25.4/jsx-dev-runtime": ["./node_modules/preact/jsx-runtime"],
       "react": ["./node_modules/preact/compat/"],
       "react/jsx-runtime": ["./node_modules/preact/jsx-runtime"],
       "react-dom": ["./node_modules/preact/compat/"],
