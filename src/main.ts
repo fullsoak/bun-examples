@@ -21,9 +21,7 @@ class MyController {
     return ssr(MyComponent, { foo: "bar" });
   }
 
-  @Get("/app")
-  @Get("/app/:page")
-  @Get("/app/:page/:sup1")
+  @Get("/app/:page*")
   renderMyRouteAwareComponent(ctx: Context) {
     return ssr(MyRouteAwareComponent, {
       foo: "Lorem Ipsum",
