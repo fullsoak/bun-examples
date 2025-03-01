@@ -29,6 +29,7 @@ bun test
 
 ## Other platforms
 
+- Examples for Node.js runtime: https://github.com/fullsoak/nodejs-examples
 - Examples for Deno runtime: https://github.com/fullsoak/deno-examples
 - Examples for Cloudflare Workers:
   https://github.com/fullsoak/cloudflare-workers-examples

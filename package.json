@@ -7,8 +7,8 @@
     "url": "https://github.com/fullsoak/bun-examples.git"
   },
   "dependencies": {
-    "@fullsoak/fullsoak": "npm:@jsr/fullsoak__fullsoak@^0.10.1",
-    "preact": "npm:preact@^10.26.2",
+    "@fullsoak/fullsoak": "npm:@jsr/fullsoak__fullsoak@0.15.0",
+    "preact": "npm:preact@10.26.4",
     "react": "npm:@preact/compat",
     "react-dom": "npm:@preact/compat"
   },

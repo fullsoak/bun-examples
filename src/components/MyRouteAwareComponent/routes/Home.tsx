@@ -1,5 +1,5 @@
 import type { FunctionComponent } from "preact";
-import type { RoutableProps } from "preact/iso";
+import type { RoutableProps } from "preact-iso";
 
 type Props = RoutableProps & { foo: string };
 
