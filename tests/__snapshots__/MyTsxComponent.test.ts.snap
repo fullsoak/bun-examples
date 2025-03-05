@@ -1,7 +1,7 @@
 // Bun Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`MyTsxComponent 1`] = `
-"<!doctype html><html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0"/><title></title><script type="importmap">{
+"<!doctype html><html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0"/><title>FullSoak on Oven 🔥</title><script type="importmap">{
     "imports": {
       "preact": "https://esm.sh/preact@10.26.4",
       "preact/hooks": "https://esm.sh/preact@10.26.4/hooks",
@@ -21,5 +21,5 @@ exports[`MyTsxComponent 1`] = `
       "fullsoak": "/fullsoak",
       "@fullsoak/fullsoak": "/fullsoak"
     }
-  }</script><script type="text/javascript"></script><style></style></head><body><main id="fullsoak-htmlshell-main"><section class="main"><h1>MyComponent</h1><ul><li>props 'foo' is bar</li><li>state count is 0 <button>+</button><button>-</button></li><li><a href="/app">Route Aware App Component</a></li></ul></section><section style="padding:1rem;"><h2>MyOtherComponent</h2><span>props 'baz' is 0</span></section><footer><span>source code of this website:</span> <a href="https://github.com/fullsoak/bun-examples.git">https://github.com/fullsoak/bun-examples.git</a></footer></main><script type="text/javascript">window.preloadedProps = {"foo":"bar"}</script><script type="module" src="/components/MyComponent/mount"></script></body></html>"
+  }</script><link rel="modulepreload" href="/components/MyComponent/mount" as="script" type="text/javascript"/><link rel="modulepreload" href="/components/MyComponent/index.tsx" as="script" type="text/javascript"/><script type="text/javascript"></script><style>@import url(/components/Shared/styles.css);.main{color:#333;padding:1rem}button+button{margin-left:5px}</style></head><body><main id="fullsoak-htmlshell-main"><section class="main"><h1>MyComponent</h1><ul><li>props 'foo' is bar</li><li>state count is 0 <button>+</button><button>-</button></li><li><a href="/app">Route Aware App Component</a></li></ul></section><section style="padding:1rem;"><h2>MyOtherComponent</h2><span>props 'baz' is 0</span></section><footer><span>source code of this website:</span> <a href="https://github.com/fullsoak/bun-examples.git">https://github.com/fullsoak/bun-examples.git</a></footer></main><script type="text/javascript">window.preloadedProps = {"foo":"bar"}</script><script defer type="module" src="/components/MyComponent/mount"></script></body></html>"
 `;

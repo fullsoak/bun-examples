@@ -4,7 +4,7 @@
     "": {
       "name": "fullsoak-bun-example",
       "dependencies": {
-        "@fullsoak/fullsoak": "npm:@jsr/fullsoak__fullsoak@0.15.0",
+        "@fullsoak/fullsoak": "npm:@jsr/fullsoak__fullsoak@0.16.2",
         "preact": "npm:preact@10.26.4",
         "react": "npm:@preact/compat",
         "react-dom": "npm:@preact/compat",
@@ -14,9 +14,9 @@
   "packages": {
     "@asteasolutions/zod-to-openapi": ["@asteasolutions/zod-to-openapi@7.3.0", "", { "dependencies": { "openapi3-ts": "^4.1.2" }, "peerDependencies": { "zod": "^3.20.2" } }, "sha512-7tE/r1gXwMIvGnXVUdIqUhCU1RevEFC4Jk6Bussa0fk1ecbnnINkZzj1EOAJyE/M3AI25DnHT/zKQL1/FPFi8Q=="],
 
-    "@fullsoak/fullsoak": ["@jsr/fullsoak__fullsoak@0.15.0", "https://npm.jsr.io/~/11/@jsr/fullsoak__fullsoak/0.15.0.tgz", { "dependencies": { "@jsr/dklab__oak-routing-ctrl": "^0.14.1", "@jsr/oak__oak": "^17.1.4", "@jsr/std__log": "^0.224.14", "@jsr/std__path": "^1.0.8", "@swc/core": "^1.11.5", "clean-css": "^5.3.3", "htm": "^3.1.1", "preact": "10.26.4", "preact-iso": "^2.9.0", "preact-render-to-string": "^6.5.13", "typescript": "^5.8.2", "uglify-js": "^3.19.3" } }, "sha512-1tmxDns5cJyaReL6VmP87V0O8qNdKgU6WkJKUpXatUMZULxxwyp5N2xf74lyeiiEPQC3Kk8jcgehk9VgMoao5g=="],
+    "@fullsoak/fullsoak": ["@jsr/fullsoak__fullsoak@0.16.2", "https://npm.jsr.io/~/11/@jsr/fullsoak__fullsoak/0.16.2.tgz", { "dependencies": { "@jsr/dklab__oak-routing-ctrl": "^0.14.2", "@jsr/oak__oak": "^17.1.4", "@jsr/std__log": "^0.224.14", "@jsr/std__path": "^1.0.8", "@swc/core": "^1.11.5", "clean-css": "^5.3.3", "htm": "^3.1.1", "preact": "10.26.4", "preact-iso": "^2.9.0", "preact-render-to-string": "^6.5.13", "typescript": "^5.8.2", "uglify-js": "^3.19.3" } }, "sha512-h6vk3eDK2fN8HH9Ud6bvwbaG+ZnxxRBfU4IehGheYhSRdSxuJQtYycSOnb08RCqW+zmMAvjn94R901mhEgTZaA=="],
 
-    "@jsr/dklab__oak-routing-ctrl": ["@jsr/dklab__oak-routing-ctrl@0.14.1", "https://npm.jsr.io/~/11/@jsr/dklab__oak-routing-ctrl/0.14.1.tgz", { "dependencies": { "@asteasolutions/zod-to-openapi": "^7.3.0", "@jsr/oak__oak": "^17.1.4", "@jsr/std__path": "^1.0.8", "zod": "^3.24.2" } }, "sha512-yuVRvNwTQenoCcuRjmflo6Nvltj9tYyl6QVRLNkKo4bi/8DrSeDx47DcvdKMBysNi64uw3tC1B0BVqOTiKPgtA=="],
+    "@jsr/dklab__oak-routing-ctrl": ["@jsr/dklab__oak-routing-ctrl@0.14.2", "https://npm.jsr.io/~/11/@jsr/dklab__oak-routing-ctrl/0.14.2.tgz", { "dependencies": { "@asteasolutions/zod-to-openapi": "^7.3.0", "@jsr/oak__oak": "^17.1.4", "@jsr/std__path": "^1.0.8", "zod": "^3.24.2" } }, "sha512-ALDfGtxB/kfmkJqHDlZZ1plbsfAiTqwashayYWUwImH2D7nQwGY2paZC1ejoryyEHok1N8YR5O8fs878mDR3nA=="],
 
     "@jsr/oak__commons": ["@jsr/oak__commons@1.0.0", "https://npm.jsr.io/~/11/@jsr/oak__commons/1.0.0.tgz", { "dependencies": { "@jsr/std__assert": "^1.0", "@jsr/std__bytes": "^1.0", "@jsr/std__crypto": "^1.0", "@jsr/std__encoding": "^1.0", "@jsr/std__http": "^1.0", "@jsr/std__media-types": "^1.0" } }, "sha512-KwXlS+TVFZ7EQo62nzGdCHg2/toRzcTCAxQ/BqS7QzAP7QQDv5nQRyybgLwK9zjVwG0D9ahN5x2biJTbinP9fw=="],
 

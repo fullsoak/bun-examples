@@ -9,8 +9,8 @@
     "baseUrl": "./",
     "paths": {
       "preact": ["./node_modules/preact"],
-      "npm:preact@10.26.2/jsx-runtime": ["./node_modules/preact/jsx-runtime"],
-      "npm:preact@10.26.2/jsx-dev-runtime": [
+      "npm:preact@10.26.4/jsx-runtime": ["./node_modules/preact/jsx-runtime"],
+      "npm:preact@10.26.4/jsx-dev-runtime": [
         "./node_modules/preact/jsx-runtime"
       ],
       "react": ["./node_modules/preact/compat/"],
